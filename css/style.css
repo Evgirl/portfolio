@@ -1,65 +1,36 @@
-/*
-  1. Use a more-intuitive box-sizing model.
-*/
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
-  /*
-    2. Remove default margin
-  */
-  * {
-    margin: 0;
-  }
-  /*
-    Typographic tweaks!
-    3. Add accessible line-height
-    4. Improve text rendering
-  */
-  body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-  }
-  /*
-    5. Improve media defaults
-  */
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
-  
-    p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
-      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Poppins:wght@400;500;600;700;800;900&family=Young+Serif&display=swap');
- :root{
-    --default-font: poppins,sans-sarif;
-    --header-font: young,san-serif;
- }
- *{
-    font-family: var(--default-font);
-  }
-  body{
-    max-width: 100vw;
-    min-width: 50vw;
-  }
-  section{
-    margin: 1rem 20rem;
-    padding: 5rem;
-    color:white ;
-    background-color: rgb(10, 6, 6);
-    border: 0.5rem solid beige;
-    border-radius: 2rem;
-    align-content: center;
-    text-align: center;
-  }
-  img{
-    border: 0.2rem solid white;
-    border-radius: 5rem;
-    background-image: url(/img/Ev\ girl.jpg);
-    background-repeat: no-repeat;
-  }
-  a{
-    text-decoration: none;
-    color: rgb(206, 12, 12);
-    color: rgb(233, 82, 27);
-  }
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Poppins:wght@400;500;600;700;800;900&family=Young+Serif&display=swap");
+:root {
+  --default-font: poppins, sans-sarif;
+}
+* {
+  font-family: var(--default-font);
+}
+body {
+  max-width: 100vw;
+  min-width: 50vw;
+}
+section {
+  margin: 1rem 20rem;
+  padding: 5rem;
+  color: white;
+  background-image: url("../img/Ev\ girl.jpg");
+  border: 0.5rem solid beige;
+  border-radius: 2rem;
+  align-content: center;
+  text-align: left;
+}
+img {
+  border: 0.2rem solid white;
+  border-radius: 5rem;
+  background-image: url(/img/Ev\ girl.jpg);
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+  color: rgb(206, 12, 12);
+  color: rgb(233, 82, 27);
+}
+.Eva {
+  text-shadow: 0 -3px rgb(71, 5, 5) ;
+}
